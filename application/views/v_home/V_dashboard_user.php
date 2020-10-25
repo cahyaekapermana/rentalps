@@ -5,14 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
+    <!-- Cahya -->
     <link
       rel="stylesheet"
-      href="frontend/libraries/bootstrap/css/bootstrap.css"
+      href="<?php echo base_url('assets/landing_page/libraries/bootstrap/css/bootstrap.css')?>"
     />
-
+    <!--  -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600;700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="frontend/styles/main.css" />
+    <link rel="stylesheet" href="<?php echo base_url('assets/landing_page/styles/main.css')?>" />
     <link
       href="https://fonts.googleapis.com/css?family=Assistant&display=swap"
       rel="stylesheet"
@@ -29,7 +30,7 @@
     <div class="container">
       <nav class="row navbar navbar-expand-lg navbar-light bg-white">
         <a class="navbar-brand" href="#">
-          <img src="frontend/images/logo_rentalkuy.png" alt="" />
+          <img src="<?php echo base_url('assets/landing_page/images/logo_rentalkuy.png')?>" alt="" />
         </a>
         <button
           class="navbar-toggler navbar-toggler-right"
