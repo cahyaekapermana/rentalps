@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class C_login extends CI_Controller {
+class C_dashboard extends CI_Controller {
 
 	/**
 	 * Index Page for this controller.
@@ -20,6 +20,6 @@ class C_login extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('login/v_login.php');
+		$this->load->view('v_home/V_dashboard_user');
 	}
 }
