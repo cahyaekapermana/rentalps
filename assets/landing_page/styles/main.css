@@ -1,0 +1,143 @@
+body {
+  background-color: #E4E6EB;
+  font-family: 'Assistant', sans-serif;
+}
+
+.navbar-brand img {
+  max-height: 80px;
+}
+
+.btn-navbar-right {
+  margin-top: -24px !important;
+  height: 83px;
+  
+  margin-bottom: -24px !important;
+  margin-right: -18px !important;
+  border-radius: 0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #1565D8;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  font-weight: bold;
+  color: #1565D8 !important;
+}
+
+.btn-login {
+  background-color: #1565D8;
+  color: #fff;
+}
+
+.btn-login:hover {
+  color: #fff;
+}
+
+
+header{
+  margin-top: -85px;
+  padding: 180px 0 165px;
+  background-image: url('../images/header.jpg');
+  background-size: cover;
+}
+
+header h1,
+header p {
+  
+  color: #fff;
+}
+
+
+
+header h1{
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+
+
+header .btn-get-started {
+  background-color:  #16C748;
+  color: #fff;
+}
+header .btn-get-started {
+  background-color:  #16C748;
+  color: #fff;
+}
+
+header ,.btn-get-started:hover{
+  color: #fff;
+}
+
+.section-stats {
+  margin-top: -50px;
+}
+
+.section-stats .stats-detail {
+  padding-top: 15px;
+  background: #fff;
+  padding-left: 40px;
+}
+
+.section-stats h2 {
+  font-size: 36px;
+  margin-bottom: 0;
+}
+
+.section-stats p {
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+
+.section-collection {
+  min-height: 540px;
+  background: #1565D8;
+  margin-top: -60px;
+  margin-bottom: -230px;
+}
+.section-collection-heading{
+padding-top: 50px;
+
+}
+.section-collection .section-collection-heading {
+  margin-top: 580px;
+}
+.section-collection .section-collection-heading h2,
+.section-collection .section-collection-heading p {
+  color: #fff;
+}
+
+.section-collection .section-collection-heading h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+}
+
+.section-collection-content .section-collection-travel .card-collection {
+  min-height: 380px;
+  background: #fff;
+  color: #fff;
+  padding: 30px;
+  background-size: cover;
+  margin-bottom: 20px;
+}
+
+.section-collection-content .section-collection-travel .card-collection .travel-country {
+  font-size: 18px;
+  color: #fff;
+}
+
+.section-collection-content .section-collection-travel .card-collection .travel-location {
+  font-size: 26px;
+  color: #fff;
+}
+
+.section-collection-content .section-collection-travel .card-collection .travel-button .btn-travel-details {
+  background-color: #FF9E53;
+  color: #fff;
+}
+
+.section-collection-content .section-collection-travel .card-collection .travel-button .btn-travel-details:hover {
+  color: #fff;
+}
