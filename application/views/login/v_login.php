@@ -1,11 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Login V3</title>
-    <meta charset="UTF-8">
-    <!-- Patokan -->
-    <!-- <?php echo base_url('assets/login_template/vendor/select2/select2.min.js') ?> -->
-    
+	<title>Login V18</title>
+	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 <!--===============================================================================================-->	
 	<link rel="icon" type="image/png" href="<?php echo base_url('assets/login_template/images/icons/favicon.ico')?>"/>
@@ -14,7 +11,7 @@
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/login_template/fonts/font-awesome-4.7.0/css/font-awesome.min.css')?>">
 <!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/login_template/fonts/iconic/css/material-design-iconic-font.min.css')?>">
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/login_template/fonts/Linearicons-Free-v1.0.0/icon-font.min.css')?>">
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/login_template/vendor/animate/animate.css')?>">
 <!--===============================================================================================-->	
@@ -30,55 +27,71 @@
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/login_template/css/main.css')?>">
 <!--===============================================================================================-->
 </head>
-<body>
+<body style="background-color: #666666;">
 	
 	<div class="limiter">
-		<div class="container-login100" style="background-image: url('<?php echo base_url('assets/login_template/images/bg-01.jpg');?>">
+		<div class="container-login100">
 			<div class="wrap-login100">
 				<form class="login100-form validate-form">
-					<span class="login100-form-logo">
-						<i class="zmdi zmdi-landscape"></i>
-					</span>
-
-					<span class="login100-form-title p-b-34 p-t-27">
-						Wirosableng Rental
-					</span>
-
-					<div class="wrap-input100 validate-input" data-validate = "Enter username">
-						<input class="input100" type="text" name="username" placeholder="Username">
-						<span class="focus-input100" data-placeholder="&#xf207;"></span>
+                    <!-- Logo -->
+					<span class="login100-form-title p-b-43">
+                        <img src="<?php echo base_url('assets/login_template/images/logo/logo_rentalkuy.png')?>" alt="">
+                    </span>
+                    <span class="login100-form-title p-b-43">
+                    Login to wirosableng rental                    
+                    </span>
+                    
+					<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+						<input class="input100" type="text">
+						<span class="focus-input100"></span>
+						<span class="label-input100">Username</span>
+					</div>
+					
+					
+					<div class="wrap-input100 validate-input" data-validate="Password is required">
+						<input class="input100" type="password">
+						<span class="focus-input100"></span>
+						<span class="label-input100">Password</span>
 					</div>
 
-					<div class="wrap-input100 validate-input" data-validate="Enter password">
-						<input class="input100" type="password" name="pass" placeholder="Password">
-						<span class="focus-input100" data-placeholder="&#xf191;"></span>
+					<div class="flex-sb-m w-full p-t-3 p-b-32">
+						<div>
+							<span class="txt1">belum memiliki akun? silahkan daftar <b><a href="#" class="txt1">Disini</a></b></span>
+						</div>
 					</div>
-
-					<div class="contact100-form-checkbox">
-						<input class="input-checkbox100" id="ckb1" type="checkbox" name="remember-me">
-						<label class="label-checkbox100" for="ckb1">
-							Remember me
-						</label>
-					</div>
+			
 
 					<div class="container-login100-form-btn">
 						<button class="login100-form-btn">
 							Login
 						</button>
 					</div>
+					
+					<div class="text-center p-t-46 p-b-20">
+						<span class="txt2">
+							or sign up using
+						</span>
+					</div>
 
-					<div class="text-center p-t-90">
-						<a class="txt1" href="#">
-							Forgot Password?
+					<div class="login100-form-social flex-c-m">
+						<a href="#" class="login100-form-social-item flex-c-m bg1 m-r-5">
+							<i class="fa fa-facebook-f" aria-hidden="true"></i>
+						</a>
+
+						<a href="#" class="login100-form-social-item flex-c-m bg2 m-r-5">
+							<i class="fa fa-twitter" aria-hidden="true"></i>
 						</a>
 					</div>
 				</form>
+                <!-- BG -->
+				<div class="login100-more" style="background-image: url('<?php echo base_url('assets/login_template/images/bg-02.jpg')?>');">
+				</div>
 			</div>
 		</div>
 	</div>
 	
 
-	<div id="dropDownSelect1"></div>
+	
 	
 <!--===============================================================================================-->
 	<script src="<?php echo base_url('assets/login_template/vendor/jquery/jquery-3.2.1.min.js')?>"></script>
