@@ -6,6 +6,5 @@
     <title>Rental Oyee</title>
 </head>
 <body>
-    
-</body>
+    Halo ferdy
 </html>
