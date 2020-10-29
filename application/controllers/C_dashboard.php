@@ -22,4 +22,9 @@ class C_dashboard extends CI_Controller {
 	{
 		$this->load->view('v_home/V_dashboard_user');
 	}
+	
+	public function page_tentang()
+	{
+		$this->load->view('v_home/V_tentang');
+	}
 }

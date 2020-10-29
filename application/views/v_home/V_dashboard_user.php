@@ -66,7 +66,8 @@
               </div> 
             </li>
             <li class="nav-item mx-md-2">
-              <a class="nav-link" href="#">Tentang</a>
+              <a class="nav-link" href="<?php echo site_url("c_dashboard/page_tentang")  ?>">Tentang</a>
+
             </li>
           </ul>
 
