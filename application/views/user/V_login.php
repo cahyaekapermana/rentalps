@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Login V18</title>
+	<title>Login Rental Wirosableng</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 <!--===============================================================================================-->	
@@ -43,7 +43,7 @@
                     
 					<!-- Flashdata Login Gagal-->
 					<?php echo $this->session->flashdata('msg'); ?>
-					
+
 					<div class="wrap-input100 validate-input" data-validate = "Username required">
 						<input class="input100" type="text" name="f_username">
 						<span class="focus-input100"></span>
