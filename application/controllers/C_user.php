@@ -20,6 +20,11 @@ class C_user extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('login/v_login.php');
+		$this->load->view('user/v_login.php');
+	}
+
+	public function load_register()
+	{
+		$this->load->view('user/v_register');
 	}
 }
