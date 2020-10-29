@@ -3,38 +3,31 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class C_user extends CI_Controller {
 
-	/**
-	 * Index Page for this controller.
-	 *
-	 * Maps to the following URL
-	 * 		http://example.com/index.php/welcome
-	 *	- or -
-	 * 		http://example.com/index.php/welcome/index
-	 *	- or -
-	 * Since this controller is set as the default controller in
-	 * config/routes.php, it's displayed at http://example.com/
-	 *
-	 * So any other public methods not prefixed with an underscore will
-	 * map to /index.php/welcome/<method_name>
-	 * @see https://codeigniter.com/user_guide/general/urls.html
-	 */
+	// Load model lewat construct
+	public function __construct()
+    {
+        parent::__construct();
+        //Do your magic here
+        $this->load->model('M_user');
+    }
+
 	public function index()
 	{
-		$this->load->view('user/v_login.php');
+		$this->load->view('user/V_login.php');
 	}
 
 	public function load_register()
 	{
-		$this->load->view('user/v_register');
+		$this->load->view('user/V_register');
 	}
 
 	// Login Sistem
 	public function c_aksi_login()
 	{
 		$c_username = $this->input->post('f_username', TRUE);
-		$c_password = md5($this->input->post('f_password', TRUE));
+		$c_password = $this->input->post('f_password', TRUE);
 		// Load Model
-		$cek = $this->M_user->M_aksi_login($c_username, $c_password);
+		$cek = $this->M_user->m_aksi_login($c_username, $c_password);
 		
 		// Cek Session dan Isi table
 		if ($cek->num_rows() > 0) {
@@ -51,21 +44,27 @@ class C_user extends CI_Controller {
 				's_level'		=> $level,
 				'logged_in'		=> TRUE
 			);
-			// set userdata
+			// set session
 			$this->session->set_userdata($sesdata);
 			
-			// SESI LOGIN
+			// SESI LOGIN USER ATAU ADMIN
 			
 			//Sesi login user pengguna atau admin
 			if ($level == "User") {
 
-				redirect('c_dashboard');
+				redirect('C_dashboard');
 			
 			} 
+
+			// print_r ($data);
 		
 		// Jika Gagal Login
 		} else {
-			redirect('c_user');
+
+			echo $this->session->set_flashdata('msg', '<div class="alert alert-danger" role="alert">
+            Username atau password salah!
+            </div>');
+			redirect('C_user');
 		}
 			
 	}
