@@ -72,13 +72,13 @@
           </ul>
 
           <!-- Mobile button -->
-          <form class="form-inline d-sm-block d-md-none">
+          <form class="form-inline d-sm-block d-md-none" action="<?php echo base_url('c_user')?>">
             <button class="btn btn-login my-2 my-sm-0">
               Masuk
             </button>
           </form>
           <!-- Desktop Button -->
-          <form class="form-inline my-2 my-lg-0 d-none d-md-block">
+          <form class="form-inline my-2 my-lg-0 d-none d-md-block" action="<?php echo base_url('c_user')?>">
             <button class="btn btn-login btn-navbar-right my-2 my-sm-0 px-4">
               Masuk
             </button>
