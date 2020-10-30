@@ -32,7 +32,7 @@
 	<div class="limiter">
 		<div class="container-login100">
 			<div class="wrap-login100">
-				<form class="login100-form validate-form">
+				<form class="login100-form validate-form" action="<?php echo site_url('C_user/c_register')?>" method="POST">
                     <!-- Logo -->
 					<span class="login100-form-title p-b-43">
                         <img src="<?php echo base_url('assets/login_template/images/logo/logo_rentalkuy.png')?>" alt="">
@@ -41,40 +41,40 @@
                     Registrasi Akun                    
                     </span>
                     
-					<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
-						<input class="input100" type="text">
+					<div class="wrap-input100 validate-input" data-validate = "username is required: ex@abc.xyz">
+						<input class="input100" type="text" name="f_username">
 						<span class="focus-input100"></span>
 						<span class="label-input100">Username</span>
 					</div>
 					
 					
 					<div class="wrap-input100 validate-input" data-validate="Password is required">
-						<input class="input100" type="password">
+						<input class="input100" type="password" name="f_password">
 						<span class="focus-input100"></span>
 						<span class="label-input100">Password</span>
 					</div>
 
-                    <div class="wrap-input100 validate-input" data-validate="Password is required">
-						<input class="input100" type="text">
+                    <div class="wrap-input100 validate-input" data-validate="Email Required">
+						<input class="input100" type="text" name="f_email">
 						<span class="focus-input100"></span>
 						<span class="label-input100">Email</span>
 					</div>
 
                     
-                    <div class="wrap-input100 validate-input" data-validate="Password is required">
-						<input class="input100" type="text">
+                    <div class="wrap-input100 validate-input" data-validate="Nama Lengkap is required">
+						<input class="input100" type="text" name="f_naleng">
 						<span class="focus-input100"></span>
 						<span class="label-input100">Nama Lengkap </span>
 					</div>
 
-                    <div class="wrap-input100 validate-input" data-validate="Password is required">
-						<input class="input100" type="text">
+                    <div class="wrap-input100 validate-input" data-validate="Alamat is required">
+						<input class="input100" type="text" name="f_alamat">
 						<span class="focus-input100"></span>
 						<span class="label-input100">Alamat </span>
 					</div>
 
-                    <div class="wrap-input100 validate-input" data-validate="Password is required">
-						<input class="input100" type="number">
+                    <div class="wrap-input100 validate-input" data-validate="No Telp is required">
+						<input class="input100" type="number" name="f_notelp">
 						<span class="focus-input100"></span>
 						<span class="label-input100">Nomor Telepon </span>
 					</div>

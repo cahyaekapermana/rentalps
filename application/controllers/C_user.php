@@ -69,7 +69,16 @@ class C_user extends CI_Controller {
 			
 	}
 
-	function logout()
+	public function c_register()
+	{
+		$this->M_user->M_register();
+
+		
+		redirect('C_user');
+		
+	}
+	// Logout/Sessdestroy
+	public function logout()
     {
 
         $this->session->sess_destroy();
