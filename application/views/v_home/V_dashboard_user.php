@@ -48,7 +48,7 @@
               <a class="nav-link active" href="#"><?php echo $this->session->userdata('s_username'); ?></a>
             </li>
             <li class="nav-item mx-md-2">
-              <a class="nav-link" href="#">Home</a>
+              <a class="nav-link" href="<?php echo site_url("c_dashboard")  ?>">Home</a>
             </li>
             <li class="nav-item mx-md-2">
               <a class="nav-link" href="#">Paket Game</a>
