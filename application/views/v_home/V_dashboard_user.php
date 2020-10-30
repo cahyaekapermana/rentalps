@@ -44,7 +44,7 @@
         <!-- Menu -->
         <div class="collapse navbar-collapse" id="navb">
           <ul class="navbar-nav ml-auto mr-3">
-          <li class="nav-item mx-md-2">
+            <li class="nav-item mx-md-2">
               <a class="nav-link active" href="#"><?php echo $this->session->userdata('s_username'); ?></a>
             </li>
             <li class="nav-item mx-md-2">
