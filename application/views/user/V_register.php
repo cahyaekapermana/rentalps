@@ -84,6 +84,10 @@
 							Daftar Sekarang!
 						</button>
 					</div>
+
+					<div class="text-center">
+                		<a class="small" href="<?php echo base_url('c_user/c_aksi_login') ?>">Sudah Punya Akun? Silahkan Login</a>
+              		</div>
 					
 				</form>
                 <!-- BG -->
