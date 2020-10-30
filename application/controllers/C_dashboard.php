@@ -27,4 +27,14 @@ class C_dashboard extends CI_Controller {
 	{
 		$this->load->view('v_home/V_tentang');
 	}
+
+	public function page_paketgame()
+	{
+		$this->load->view('v_home/V_paketgame');
+	}
+
+	public function page_testimonal()
+	{
+		$this->load->view('v_home/V_testimonal');
+	}
 }

@@ -48,12 +48,12 @@
               <a class="nav-link active" href="<?php echo site_url("c_dashboard")  ?>">Home</a>
             </li>
             <li class="nav-item mx-md-2">
-              <a class="nav-link" href="#">Paket Game</a>
+              <a class="nav-link" href="<?php echo site_url("c_dashboard/page_paketgame")  ?>">Paket Game</a>
             </li>
             <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
-                href="#"
+                href="<?php echo site_url("c_dashboard/page_testimonal")  ?>"
                 id="navbardrop"
                 data-toggle="dropdown"
               >

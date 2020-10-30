@@ -51,7 +51,7 @@
               <a class="nav-link" href="<?php echo site_url("c_dashboard")  ?>">Home</a>
             </li>
             <li class="nav-item mx-md-2">
-              <a class="nav-link" href="<?php echo site_url("c_dashboard/page_paketgame")  ?>">Paket Game</a>
+              <a class="nav-link" href="#">Paket Game</a>
             </li>
             <li class="nav-item dropdown">
               <a
@@ -235,9 +235,6 @@
         </div>
       </div>
     </section>
-
-
-
 
     </main>
     <footer></footer>
