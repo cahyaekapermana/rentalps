@@ -59,7 +59,7 @@
 
 					<div class="flex-sb-m w-full p-t-3 p-b-32">
 						<div>
-							<span class="txt1">belum memiliki akun? silahkan daftar <b><a href="<?php echo site_url('c_user/load_register') ?>" class="txt1">Disini</a></b></span>
+							<span class="txt1">belum memiliki akun? silahkan daftar <b><a href="<?php echo site_url('C_user/load_register') ?>" class="txt1">Disini</a></b></span>
 						</div>
 					</div>
 			
