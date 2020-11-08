@@ -13,7 +13,7 @@
     <!--  -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600;700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="<?php echo base_url('assets/landing_page/styles/main.css')?>" />
+    <link rel="stylesheet" href="<?php echo base_url('/assets/landing_page/styles/main.css')?>" />
     <link
       href="https://fonts.googleapis.com/css?family=Assistant&display=swap"
       rel="stylesheet"
@@ -157,90 +157,252 @@
     </section>
     </div>
 
-    <section class="section-collection" id="collection
-      <div class="container">
-        <div class="row">
-           <div class="col text-center section-colletion-heading">
-           <h2>Collection Game</h2>
-
-           <p>
-            Lihat Game seru Abad Ini 
-            <br />
-            dan mainkan bersama temanmu
-           </p>
-           </div>
+    <section class="section-popular" id="popular">
+        <div class="container">
+          <div class="row">
+            <div class="col text-center section-popular-heading">
+              <h2>Game Collection</h2>
+              <p>
+                Try to nge game
+                <br />
+                dan ajak temen lo maen 
+              </p>
+            </div>
+          </div>
         </div>
-      </div>
-    </section>
-
-    <section class="section-collection-content" id="CollectionContent">
-      <div class="container">
-        <div class="section-collection-game row justify-content-center">
-          <div class="col-sm-6 col-md-4 col-lg-3">
-            <div
-              class="card-collection text-center d-flex flex-column"
-              style="background-image: url('frontend/images/game-1.jpg');"
-            >
-              <!-- <div class="travel-country">INDONESIA</div> -->
-              <div class="travel-location">SPORT GAME</div>
-              <div class="travel-button mt-auto">
-                <a href="#" class="btn btn-travel-details px-4">
-                  View Game
-                </a>
+      </section>
+      <section class="section-popular-content" id="popular">
+        <div class="container">
+          <div class="section-popular-travel row justify-content-center">
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <div
+                class="card-travel text-center d-flex flex-column"
+                style="background-image: <?php echo base_url ('assets/landing_page/images/game-sport.jpg')?>" alt=""
+              >
+                <div class="travel-country">Populer</div>
+                <div class="travel-location">Sport</div>
+                <div class="travel-button mt-auto">
+                  <a href="details.html" class="btn btn-travel-details px-4">
+                    View Details
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <div
+                class="card-travel text-center d-flex flex-column"
+                style="background-image: <?php echo base_url ('assets/landing_page/images/game-populer.jpg')?>" alt=""
+              >
+                <div class="travel-country">Populer</div>
+                <div class="travel-location">Game Populer</div>
+                <div class="travel-button mt-auto">
+                  <a href="details.html" class="btn btn-travel-details px-4">
+                    View Details
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <div
+                class="card-travel text-center d-flex flex-column"
+                style="background-image: <?php echo base_url ('assets/landing_page/images/game-action.jpg')?>" alt=""
+              >
+                <div class="travel-country">Populer</div>
+                <div class="travel-location">Action</div>
+                <div class="travel-button mt-auto">
+                  <a href="details.html" class="btn btn-travel-details px-4">
+                    View Details
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+              <div
+                class="card-travel text-center d-flex flex-column"
+                style="background-image: <?php echo base_url ('assets/landing_page/images/game-fun.jpg')?>" alt=""
+                 >
+                <div class="travel-country">Popular</div>
+                <div class="travel-location">Fun</div>
+                <div class="travel-button mt-auto">
+                  <a href="details.html" class="btn btn-travel-details px-4">
+                    View Details
+                  </a>
+                </div>
               </div>
             </div>
           </div>
-          <div class="col-sm-6 col-md-4 col-lg-3">
-            <div
-              class="card-collection text-center d-flex flex-column"
-              style="background-image: url('frontend/images/game-2.jpg');"
-            >
-              <!-- <div class="travel-country">INDONESIA</div> -->
-              <div class="travel-location">ACTION GAME</div>
-              <div class="travel-button mt-auto">
-                <a href="#" class="btn btn-travel-details px-4">
-                  View Details
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-4 col-lg-3">
-            <div
-              class="card-collection text-center d-flex flex-column"
-              style="background-image: url('frontend/images/game-3.jpg');"
-            >
-              <!-- <div class="travel-country">INDONESIA</div> -->
-              <div class="travel-location">POPULAR GAME</div>
-              <div class="travel-button mt-auto">
-                <a href="#" class="btn btn-travel-details px-4">
-                  View Details
-                </a>
-              </div>
-            </div>
-          </div>
-          <!-- <div class="col-sm-6 col-md-4 col-lg-3">
-            <div
-              class="card-collection text-center d-flex flex-column"
-              style="background-image: url('frontend/images/travel-4.jpg');"
-            >
-              <div class="travel-country">INDONESIA</div>
-              <div class="travel-location">DUBAI</div>
-              <div class="travel-button mt-auto">
-                <a href="#" class="btn btn-travel-details px-4">
-                  View Details
-                </a>
-              </div>
-            </div>
-          </div> -->
         </div>
-      </div>
-    </section>
-
-
-
-
+      </section>
+      <section class="section-networks" id="networks">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <h2>Our Networks</h2>
+              <p>
+                Companies are trusted us
+                <br />
+                more than just nge game
+              </p>
+            </div>
+            <div class="col-md-8 text-center">
+              <img src="assets/landing_page/images/blue-game.png" class="img-patner" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-testimonials-heading" id="testimonialsHeading">
+        <div class="container">
+          <div class="row">
+            <div class="col text-center">
+              <h2>Penwaran main game</h2>
+              <p>
+                Moments were giving them
+                <br />
+                the best experience
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-testimonials-content" id="testimonialsContent">
+        <div class="container">
+          <div
+            class="section-popular-travel row justify-content-center match-height"
+          >
+            <div class="col-sm-6 col-md-6 col-lg-4">
+              <div class="card card-testimonial text-center">
+                <div class="testimonial-content">
+                  <!-- <img
+                    src="frontend/images/avatar-1.png"
+                    alt=""
+                    class="mb-4 rounded-circle"
+                  /> -->
+                  <h3 class="mb-4">Miskin</h3>
+                  <p class="testimonials">
+                    
+                  Main di Tempat / rental Dapat es teh
+                  Minimal 4 Game ,PS 4
+                  </p>
+                </div>
+                <hr />
+                <p class="trip-to mt-2">RP 15.000/3 jam</p>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-4">
+              <div class="card card-testimonial text-center">
+                <div class="testimonial-content">
+                  <!-- <img
+                    src="frontend/images/avatar-2.png"
+                    alt=""
+                    class="mb-4 rounded-circle"
+                  /> -->
+                  <h3 class="mb-4">Kaum Menengah</h3>
+                  <p class="testimonials">
+                  Bawa Pulang, Dipenjimin Stick, Minimal 12 Game
+                  Random Game Popoler, PS 4
+                  </p>
+                </div>
+                <hr />
+                <p class="trip-to mt-2">RP 25.000/1 Hari</p>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-4">
+              <div class="card card-testimonial text-center">
+                <div class="testimonial-content mb-auto">
+                  <!-- <img
+                    src="frontend/images/avatar-3.png"
+                    alt=""
+                    class="mb-4 rounded-circle"
+                  /> -->
+                  <h3 class="mb-4">Kaum Kaya</h3>
+                  <p class="testimonials">
+                  Bawa Pulang, Dipenjemin stick + Monitor
+                  Minimal 25 Game Random Game Populer,PS 5
+                  </p>
+                </div>
+                <hr />
+                <p class="trip-to mt-2">RP 150.000/1 Hari</p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 text-center">
+              <a href="#" class="btn btn-need-help px-4 mt-4 mx-1">
+                I Need Help
+              </a>
+              <a href="#" class="btn btn-get-started px-4 mt-4 mx-1">
+                Sewa
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
-    <footer></footer>
+    <footer class="section-footer mt-5 mb-4 border-top">
+      <div class="container pt-5 pb-5">
+        <div class="row justify-content-center">
+          <div class="col-12">
+            <div class="row">
+              <div class="col-12">
+                <div class="row">
+                  <div class="col-12 col-lg-3">
+                    <h5>FEATURES</h5>
+                    <ul class="list-unstyled">
+                      <li>
+                        <a href="https://www.youtube.com/channel/UCbb5TgzYFaLw0_QYxMvxDdg">Reviews</a>
+                      </li>
+                      <li>
+                        <a href="#">Community</a>
+                      </li>
+                      <li>
+                        <a href="#">Social Media Kit</a>
+                      </li>
+                      <li>
+                        <a href="#">Affiliate</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-12 col-lg-3">
+                    <h5>ACCOUNT</h5>
+                    <ul class="list-unstyled">
+                      <li><a href="#">Refund</a></li>
+                      <li><a href="#">Security</a></li>
+                      <li><a href="#">Rewards</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-12 col-lg-3">
+                    <h5>COMPANY</h5>
+                    <ul class="list-unstyled">
+                      <li><a href="#">EA Games</a></li>
+                      <li><a href="#">PS4</a></li>
+                      <li><a href="#">Rockstar</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-12 col-lg-3">
+                    <h5>Get Connected</h5>
+                    <ul class="list-unstyled">
+                      <li>Malang Suhat</li>
+                      <li>Indonesia</li>
+                      <li>0821 - 696969 - 696969</li>
+                      <li>support@rentalkuy.id</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div
+          class="row border-top justify-content-center align-items-center pt-4"
+        >
+          <div class="col-auto text-gray-500 font-weight-light">
+            2020 Copyright Rentalkuy • All rights reserved • Made in Poltek
+          </div>
+        </div>
+      </div>
+    </footer>
     <script src="frontend/libraries/retina/retina.js"></script>
     <script src="frontend/libraries/jquery/jquery-3.4.1.min.js"></script>
     <script src="frontend/libraries/bootstrap/js/bootstrap.js"></script>
