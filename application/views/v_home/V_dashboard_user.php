@@ -191,7 +191,7 @@
             <div class="col-sm-6 col-md-4 col-lg-3">
               <div
                 class="card-travel text-center d-flex flex-column"
-                style="background-image: <?php echo base_url('assets/landing_page/images/game-populer.jpg')?>" alt=""
+                style="background-image: url('<?php echo base_url('assets/landing_page/images/game-populer.jpg')?>')" alt=""
               >
                 <div class="travel-country">Populer</div>
                 <div class="travel-location">Game Populer</div>
@@ -205,7 +205,7 @@
             <div class="col-sm-6 col-md-4 col-lg-3">
               <div
                 class="card-travel text-center d-flex flex-column"
-                style="background-image: <?php echo base_url('assets/landing_page/images/game-action.jpg')?>" alt=""
+                style="background-image: url('<?php echo base_url('assets/landing_page/images/game-action.jpg')?>')" alt=""
               >
                 <div class="travel-country">Populer</div>
                 <div class="travel-location">Action</div>
@@ -219,7 +219,7 @@
             <div class="col-sm-6 col-md-4 col-lg-3">
               <div
                 class="card-travel text-center d-flex flex-column"
-                style="background-image: <?php echo base_url ('assets/landing_page/images/game-fun.jpg')?>" alt=""
+                style="background-image: url('<?php echo base_url ('assets/landing_page/images/game-fun.jpg')?>')" alt=""
                  >
                 <div class="travel-country">Popular</div>
                 <div class="travel-location">Fun</div>
@@ -254,7 +254,7 @@
         <div class="container">
           <div class="row">
             <div class="col text-center">
-              <h2>Penwaran main game</h2>
+              <h2>Penawaran main game</h2>
               <p>
                 Moments were giving them
                 <br />
@@ -277,7 +277,7 @@
                     alt=""
                     class="mb-4 rounded-circle"
                   /> -->
-                  <h3 class="mb-4">Miskin</h3>
+                  <h3 class="mb-4">Kaum Miskin</h3>
                   <p class="testimonials">
                     
                   Main di Tempat / rental Dapat es teh
@@ -286,11 +286,12 @@
                 </div>
                 <hr />
                 <p class="trip-to mt-2">RP 15.000/3 jam</p>
+                <a href="#" class="btn btn-primary">Sewa</a>
               </div>
             </div>
             <div class="col-sm-6 col-md-6 col-lg-4">
               <div class="card card-testimonial text-center">
-                <div class="testimonial-content">
+                <div class="testimonial-content" >
                   <!-- <img
                     src="frontend/images/avatar-2.png"
                     alt=""
@@ -304,6 +305,7 @@
                 </div>
                 <hr />
                 <p class="trip-to mt-2">RP 25.000/1 Hari</p>
+                <a href="#" class="btn btn-primary">Sewa</a>
               </div>
             </div>
             <div class="col-sm-6 col-md-6 col-lg-4">
@@ -322,6 +324,7 @@
                 </div>
                 <hr />
                 <p class="trip-to mt-2">RP 150.000/1 Hari</p>
+                <a href="#" class="btn btn-primary">Sewa</a>
               </div>
             </div>
           </div>

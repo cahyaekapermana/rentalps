@@ -111,13 +111,13 @@
 
     <!--Header-->
     <header class="text-center">
-      <h1>Rental Game Terbaik se Indonesia
+      <h1>Pilih Paket Game
         <br />
-         Kami juga Bisa anterin juga Console  dan Game mu
+         Dijamin murah tergantung tingkat kekayaan
          
         </h1>
         <p class="nt-3">
-          Sewa Game kami dan mainkan sesuka anda
+          <!-- Sewa Game kami dan mainkan sesuka anda -->
           <br />
         </p>
 
@@ -134,90 +134,96 @@
       <section class="section-stats row
       justify-content-center" id="stats">
 
-      <div class="col-3 col-md-2 stats-detail">
-        <h2>200</h2>
-        <p>Members</p>
-      </div>
-
-      <div class="col-3 col-md-2 stats-detail">
-        <h2>25</h2>
-        <p>Game</p>
-      </div>
-
-      <div class="col-3 col-md-2 stats-detail">
-        <h2>12</h2>
-        <p>playstation</p>
-      </div>
-
-      <div class="col-3 col-md-2 stats-detail">
-        <h2>5</h2>
-        <p>Developers</p>
-      </div>
-  
-    </section>
-    </div>
-
-    <section class="section-collection" id="collection
       <div class="container">
-        <div class="row">
-           <div class="col text-center section-colletion-heading">
-           <h2>Collection Game</h2>
-
-           <p>
-            Lihat Game seru Abad Ini 
-            <br />
-            dan mainkan bersama temanmu
-           </p>
-           </div>
+          <div class="row">
+            <div class="col text-center">
+              <h2>Penawaran main game</h2>
+              <p>
+                Moments were giving them
+                <br />
+                the best experience
+              </p>
+            </div>
+          </div>
         </div>
-      </div>
-    </section>
-
-    <section class="section-collection-content" id="CollectionContent">
-      <div class="container">
-        <div class="section-collection-game row justify-content-center">
-          <div class="col-sm-6 col-md-4 col-lg-3">
-            <div
-              class="card-collection text-center d-flex flex-column"
-              style="background-image: url('frontend/images/game-1.jpg');"
-            >
-              <!-- <div class="travel-country">INDONESIA</div> -->
-              <div class="travel-location">SPORT GAME</div>
-              <div class="travel-button mt-auto">
-                <a href="#" class="btn btn-travel-details px-4">
-                  View Game
-                </a>
+      </section>
+      <section class="section-testimonials-content" id="testimonialsContent">
+        <div class="container">
+          <div
+            class="section-popular-travel row justify-content-center match-height"
+          >
+            <div class="col-sm-6 col-md-6 col-lg-4">
+              <div class="card card-testimonial text-center">
+                <div class="testimonial-content">
+                  <!-- <img
+                    src="frontend/images/avatar-1.png"
+                    alt=""
+                    class="mb-4 rounded-circle"
+                  /> -->
+                  <h3 class="mb-4">Kaum Miskin</h3>
+                  <p class="testimonials">
+                    
+                  Main di Tempat / rental Dapat es teh
+                  Minimal 4 Game ,PS 4
+                  </p>
+                </div>
+                <hr />
+                <p class="trip-to mt-2">RP 15.000/3 jam</p>
+                <a href="#" class="btn btn-primary">Sewa</a>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-4">
+              <div class="card card-testimonial text-center">
+                <div class="testimonial-content" >
+                  <!-- <img
+                    src="frontend/images/avatar-2.png"
+                    alt=""
+                    class="mb-4 rounded-circle"
+                  /> -->
+                  <h3 class="mb-4">Kaum Menengah</h3>
+                  <p class="testimonials">
+                  Bawa Pulang, Dipenjimin Stick, Minimal 12 Game
+                  Random Game Popoler, PS 4
+                  </p>
+                </div>
+                <hr />
+                <p class="trip-to mt-2">RP 25.000/1 Hari</p>
+                <a href="#" class="btn btn-primary">Sewa</a>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-4">
+              <div class="card card-testimonial text-center">
+                <div class="testimonial-content mb-auto">
+                  <!-- <img
+                    src="frontend/images/avatar-3.png"
+                    alt=""
+                    class="mb-4 rounded-circle"
+                  /> -->
+                  <h3 class="mb-4">Kaum Kaya</h3>
+                  <p class="testimonials">
+                  Bawa Pulang, Dipenjemin stick + Monitor
+                  Minimal 25 Game Random Game Populer,PS 5
+                  </p>
+                </div>
+                <hr />
+                <p class="trip-to mt-2">RP 150.000/1 Hari</p>
+                <a href="#" class="btn btn-primary">Sewa</a>
               </div>
             </div>
           </div>
-          <div class="col-sm-6 col-md-4 col-lg-3">
-            <div
-              class="card-collection text-center d-flex flex-column"
-              style="background-image: url('frontend/images/game-2.jpg');"
-            >
-              <!-- <div class="travel-country">INDONESIA</div> -->
-              <div class="travel-location">ACTION GAME</div>
-              <div class="travel-button mt-auto">
-                <a href="#" class="btn btn-travel-details px-4">
-                  View Details
-                </a>
-              </div>
+          <div class="row">
+            <div class="col-12 text-center">
+              <a href="#" class="btn btn-need-help px-4 mt-4 mx-1">
+                I Need Help
+              </a>
+              <a href="#" class="btn btn-get-started px-4 mt-4 mx-1">
+                Sewa
+              </a>
             </div>
           </div>
-          <div class="col-sm-6 col-md-4 col-lg-3">
-            <div
-              class="card-collection text-center d-flex flex-column"
-              style="background-image: url('frontend/images/game-3.jpg');"
-            >
-              <!-- <div class="travel-country">INDONESIA</div> -->
-              <div class="travel-location">POPULAR GAME</div>
-              <div class="travel-button mt-auto">
-                <a href="#" class="btn btn-travel-details px-4">
-                  View Details
-                </a>
-              </div>
-            </div>
-          </div>
+        </div>
+      </section>
+    </main>
           <!-- <div class="col-sm-6 col-md-4 col-lg-3">
             <div
               class="card-collection text-center d-flex flex-column"
