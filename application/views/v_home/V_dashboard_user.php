@@ -177,7 +177,7 @@
             <div class="col-sm-6 col-md-4 col-lg-3">
               <div
                 class="card-travel text-center d-flex flex-column"
-                style="background-image: <?php echo base_url ('assets/landing_page/images/game-sport.jpg')?>" alt=""
+                style="background-image: url('<?php echo base_url('assets/landing_page/images/game-sport.jpg')?>')" alt=""
               >
                 <div class="travel-country">Populer</div>
                 <div class="travel-location">Sport</div>
@@ -191,7 +191,7 @@
             <div class="col-sm-6 col-md-4 col-lg-3">
               <div
                 class="card-travel text-center d-flex flex-column"
-                style="background-image: <?php echo base_url ('assets/landing_page/images/game-populer.jpg')?>" alt=""
+                style="background-image: <?php echo base_url('assets/landing_page/images/game-populer.jpg')?>" alt=""
               >
                 <div class="travel-country">Populer</div>
                 <div class="travel-location">Game Populer</div>
@@ -205,7 +205,7 @@
             <div class="col-sm-6 col-md-4 col-lg-3">
               <div
                 class="card-travel text-center d-flex flex-column"
-                style="background-image: <?php echo base_url ('assets/landing_page/images/game-action.jpg')?>" alt=""
+                style="background-image: <?php echo base_url('assets/landing_page/images/game-action.jpg')?>" alt=""
               >
                 <div class="travel-country">Populer</div>
                 <div class="travel-location">Action</div>
