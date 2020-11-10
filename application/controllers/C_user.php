@@ -49,12 +49,16 @@ class C_user extends CI_Controller {
 			
 			// SESI LOGIN USER ATAU ADMIN
 			
-			//Sesi login user pengguna atau admin
+			//Sesi login user pengguna dan admin
 			if ($level == "User") {
-
+				// Load halaman user customer
 				redirect('C_dashboard');
 			
-			} 
+			}elseif ($level == "Admin") {
+				// Load halaman user admin
+				redirect('C_admin');
+				
+			}
 
 			// print_r ($data);
 		
