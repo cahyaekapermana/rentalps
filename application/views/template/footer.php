@@ -1,14 +1,23 @@
  <!-- ================ start footer Area ================= -->
   <footer class="footer-area">
+  <div class="container">
+    <img src="<?php echo base_url('assets/images/logo/logo_rentalkuy.png'); ?>" alt="">
+  </div>
     <div class="container">
+    <p class="text-dark"><h4>Visi & Misi</h4></p>  
       <div class="row">
         <div class="col-lg-3  col-md-6 col-sm-6">
-          <div class="single-footer-widget">
-            <h6>About Agency</h6>
-            <p>
-              The world has become so fast paced that people don’t want to stand by reading a page of information to be  they would ol[much rather look at a presentation and understand
-            </p>
-          </div>
+          <h5>Misi</h5>
+          <p style="font-size: 13px;">
+          Menjadikan rental online yang sewa menyewa Playtasion untuk mempermudah konsumen dalam Sewa atapun Rental dan mampu memberikan kesan puas.
+          </p>
+        </div>
+        <div class="col-lg-3  col-md-6 col-sm-6">
+          <h5>Visi</h5>
+          <p style="font-size: 13px;">1. Kepuasan pelanggan adalah tujuan utama kami.<BR>
+          2. Mempermudah pelanggan yang mempunyai kesibukan dan kegiatan yang banyak sehingga mereka dapat Menyewa atau Rental Melalui Online.<BR>
+          3. Kejujuran merupakan hal terpenting yang kami jalankan terhadap Pelanggan yang telah memakai jasa Rental Online kami.<BR>
+          4. Memberikan kenyamanan dan kemanan dalam menyewa atau rental produk di Rental online kami.<BR></p>
         </div>
     </div>
   </footer>
