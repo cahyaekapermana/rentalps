@@ -34,42 +34,42 @@
   <section class="section-margin generic-margin">
     <div class="container" id="b">
       <div class="section-intro text-center pb-90px">
-        <img class="section-intro-img" src="<?php echo base_url(); ?>assets/landing/img/home/section-icon.png" alt="">
+        <img class="section-intro-img" src="<?php echo base_url(); ?>assets/landing/img/home/gamecon.png" alt="">
         <h2>Our Services</h2>
-        <p>The following services are the best services we provide</p>
+        <p>Pelayan kamu adalah yang berhubungan dengan rental ps</p>
       </div>
 
       <div class="row">
         <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
           <div class="service-card text-center">
             <div class="service-card-img">
-              <img class="img-fluid" src="<?php echo base_url(); ?>assets/landing/img/home/service1.png" alt="">
+              <img class="img-fluid" src="<?php echo base_url(); ?>assets/landing/img/home/gm1.png" alt="">
             </div>
             <div class="service-card-body">
-              <h3>Hotel Booking</h3>
-              <p>many conveniences in hotel bookings we provide, top class hotels with the best views, affordable prices for all walks of life</p>
+              <h3>Pilih Game </h3>
+              <p>Pilih Game terpopuler dari kami dan mainkan </p>
             </div>
           </div>
         </div>
         <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
           <div class="service-card text-center">
             <div class="service-card-img">
-              <img class="img-fluid" src="<?php echo base_url(); ?>assets/landing/img/home/service2.png" alt="">
+              <img class="img-fluid" src="<?php echo base_url(); ?>assets/landing/img/home/gm2.png" alt="">
             </div>
             <div class="service-card-body">
-              <h3>Flight Booking</h3>
-              <p>a lot of Ease in booking flights that we provide, top class seats with the best service, affordable prices for all walks of life</p>
+              <h3>Mainkan Game mu </h3>
+              <p>anda dapat meminjam dan memainkan dimanapun</p>
             </div>
           </div>
         </div>
         <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
           <div class="service-card text-center">
             <div class="service-card-img">
-              <img class="img-fluid" src="<?php echo base_url(); ?>assets/landing/img/home/service3.png" alt="">
+              <img class="img-fluid" src="<?php echo base_url(); ?>assets/landing/img/home/gm3.png" alt="">
             </div>
             <div class="service-card-body">
-              <h3>Destination Booking</h3>
-              <p>we have found the best destination that can be obtained, guarantees on every tour, and the best service we will always provide</p>
+              <h3>Pinjam Console</h3>
+              <p>anda dapat meminjam console keren dari kami</p>
             </div>
           </div>
         </div>
