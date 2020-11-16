@@ -28,11 +28,11 @@
 
 	<style type="text/css"> 
 		.container-login100{
-			background: #34626c;  
+			background: #e8e8e8;  
 		}
 
 		.login100-form-btn{
-			background-color: #000077;
+			background-color: #bbbfca;
 		} 
 	</style>
 <!--===============================================================================================-->

@@ -13,7 +13,7 @@
 		              </div>
 		          </div>
 		        <?php endif; ?>
-				<div class="login100-form-title" style="background-image: url(<?php echo base_url(); ?>assets/images/stik.jpg);">
+				<div class="login100-form-title" style="background-image: url(<?php echo base_url(); ?>assets/images/ps.jpg);">
 					<span class="login100-form-title-1">
 						Sign In
 					</span>
