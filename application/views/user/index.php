@@ -18,8 +18,8 @@
         <?php endif; ?>
       <div class="row align-items-center text-center text-md-left">
         <div class="col-md-6 col-lg-5 mb-5 mb-md-0">
-          <h1>Travel More To Discover Yourself</h1>
-          <p>Safario is a leading travel company in Southeast Asia that provides a variety of travel needs in one platform, enabling you to create moments with loved ones.</p>
+          <h1>Rentalkuy!</h1>
+          <p>Rentalkuy adalah website yang menyediakan layanan pemesanan dan penyewaan playstation yang terpercaya di Kota Malang. Yuk gabung menjadi member Rentalkuy dan dapatkan berbagai promo atau informasi menarik lainnya. </p>
         </div>
         <div class="col-md-6 col-lg-7 col-xl-6 offset-xl-1">
           <img class="img-fluid" src="<?php echo base_url('assets\images\1.png')?>" alt="">
