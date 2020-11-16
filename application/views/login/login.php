@@ -13,7 +13,7 @@
 		              </div>
 		          </div>
 		        <?php endif; ?>
-				<div class="login100-form-title" style="background-image: url(<?php echo base_url(); ?>assets/images/header.jpg);">
+				<div class="login100-form-title" style="background-image: url(<?php echo base_url(); ?>assets/images/ps.jpg);">
 					<span class="login100-form-title-1">
 						Sign In
 					</span>
@@ -45,10 +45,10 @@
 					</div>
 
 					<div class="container-login100-form-btn">
-						<button class="login100-form-btn">
+						<button class="login100-form-btn" style="background-color: #839b97;">
 							Login
 						</button>
-						<a href="<?php echo base_url(); ?>Login/regis" class="login100-form-btn"> Sign Up </a>
+						<a href="<?php echo base_url(); ?>Login/regis" class="login100-form-btn" style="background-color: #839b97;"> Sign Up </a>
 						
 					</div>
 				</form>
