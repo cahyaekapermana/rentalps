@@ -22,7 +22,7 @@
           <p>Safario is a leading travel company in Southeast Asia that provides a variety of travel needs in one platform, enabling you to create moments with loved ones.</p>
         </div>
         <div class="col-md-6 col-lg-7 col-xl-6 offset-xl-1">
-          <img class="img-fluid" src="<?php base_url(); ?>assets/landing/img/home/hero-img.png" alt="">
+          <img class="img-fluid" src="<?php echo base_url('assets\images\1.png')?>" alt="">
         </div>
       </div>
     </div>
