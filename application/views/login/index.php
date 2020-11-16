@@ -28,7 +28,7 @@
 
 	<style type="text/css"> 
 		.container-login100{
-			background: linear-gradient(to right,#0000AA, #CC0000);  
+			background: #34626c;  
 		}
 
 		.login100-form-btn{
