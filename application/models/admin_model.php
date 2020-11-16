@@ -9,7 +9,7 @@ class Admin_model extends CI_Model {
 		$this->db->from('booking');
 		$this->db->limit(3);
 		$this->db->join('auth', 'booking.id_auth = auth.id_auth');
-		$this->db->join('packages_travel', 'booking.id_package = packages_travel.id_package');
+		$this->db->join('packages_rental', 'booking.id_package = packages_rental.id_package');
 		$this->db->limit(3);
 		$query = $this->db->get();
 		return $query;
@@ -20,7 +20,7 @@ class Admin_model extends CI_Model {
 		$this->db->select('*');
 		$this->db->from('booking');
 		$this->db->join('auth', 'booking.id_auth = auth.id_auth');
-		$this->db->join('packages_travel', 'booking.id_package = packages_travel.id_package');
+		$this->db->join('packages_rental', 'booking.id_package = packages_rental.id_package');
 		$query = $this->db->get();
 		return $query;
 	}
@@ -28,12 +28,12 @@ class Admin_model extends CI_Model {
 	public function getPackage()
 	{
 		$this->db->limit(3);
-		return $this->db->get('packages_travel');
+		return $this->db->get('packages_rental');
 	}
 
 	public function getAllPackage()
 	{
-		return $this->db->get('packages_travel');
+		return $this->db->get('packages_rental');
 	}
 
 	public function getAuth()
@@ -56,7 +56,7 @@ class Admin_model extends CI_Model {
 		$this->db->or_like('price', $a);
 		$this->db->or_like('days', $a);
 		$this->db->or_like('decs', $a);
-		return $this->db->get('packages_travel');
+		return $this->db->get('packages_rental');
 
 	}
 
@@ -77,9 +77,9 @@ class Admin_model extends CI_Model {
 		$this->db->select('*');
 		$this->db->from('booking');
 		$this->db->join('auth', 'booking.id_auth = auth.id_auth');
-		$this->db->join('packages_travel', 'booking.id_package = packages_travel.id_package');
-		$this->db->like('packages_travel.name', $a);
-		$this->db->or_like('packages_travel.price', $a);
+		$this->db->join('packages_rental', 'booking.id_package = packages_rental.id_package');
+		$this->db->like('packages_rental.name', $a);
+		$this->db->or_like('packages_rental.price', $a);
 		$this->db->or_like('auth.username', $a);
 		$query = $this->db->get();
 		return $query;
@@ -92,14 +92,14 @@ class Admin_model extends CI_Model {
 
 	public function sPrice()
 	{
-		return $this->db->query('SELECT SUM(packages_travel.price) as total, COUNT(booking.id_booking) as totalB FROM `booking`
+		return $this->db->query('SELECT SUM(packages_rental.price) as total, COUNT(booking.id_booking) as totalB FROM `booking`
 			JOIN auth ON auth.id_auth = booking.id_auth
-			JOIN packages_travel on packages_travel.id_package = booking.id_package');
+			JOIN packages_rental on packages_rental.id_package = booking.id_package');
 	}
 
 	public function cPackage()
 	{
-		return $this->db->query("SELECT COUNT(id_package) as total FROM packages_travel");
+		return $this->db->query("SELECT COUNT(id_package) as total FROM packages_rental");
 	}
 
 	public function hapusData($col, $where, $tabel)

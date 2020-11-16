@@ -59,7 +59,7 @@ class Admin extends CI_Controller {
 
 	public function hapus_package($id)
 	{
-		$this->admin_model->hapusdata('id_package',$id,'packages_travel');
+		$this->admin_model->hapusdata('id_package',$id,'packages_rental');
 
         $this->session->set_flashdata('flash-data', 'Good bye paket liburan ;( ');
         redirect('Admin','refresh');
@@ -121,7 +121,7 @@ class Admin extends CI_Controller {
 	        'decs' => $this->input->post('decs',true),
         );
         $where = array('id_package' => $this->input->post('id'));
-	    $this->admin_model->ubahData('packages_travel',$dataUpdate,$where);
+	    $this->admin_model->ubahData('packages_rental',$dataUpdate,$where);
 	    $this->session->set_flashdata('flash-data', 'Paket teravel berhasil di update');
 	    redirect('Admin/package','refresh');
 	}
@@ -162,7 +162,7 @@ class Admin extends CI_Controller {
 			'decs' => $this->input->post('Decs'),
 		);
 
-		$this->admin_model->add('packages_travel',$ins);
+		$this->admin_model->add('packages_rental',$ins);
 		$this->session->set_flashdata('flash-data', 'Muantaaap Paket Liburan Baru Hadir !');
 		redirect('Admin/package','refresh');
 	}

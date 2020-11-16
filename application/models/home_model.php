@@ -5,7 +5,7 @@ class Home_model extends CI_Model {
 
 	public function getPcg()
 	{
-		return $this->db->get('packages_travel', 6);
+		return $this->db->get('packages_rental', 6);
 	}
 
 	public function booking($ins)
