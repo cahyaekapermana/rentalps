@@ -33,7 +33,7 @@ class Home extends CI_Controller {
 			'id_package' => $id,
 		);
 		$a = $this->home_model->booking($ins);
-		$this->session->set_flashdata('flash-data', 'Terima Kasih Atas Transaksinya :)');
+		$this->session->set_flashdata('flash-data', 'Transaksi Berhasil');
 		redirect('Home','refresh');
 
 	}

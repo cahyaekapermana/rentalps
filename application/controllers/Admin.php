@@ -45,7 +45,7 @@ class Admin extends CI_Controller {
 	{
 		$this->admin_model->hapusdata('id_booking',$id,'booking');
 
-        $this->session->set_flashdata('flash-data', 'Data anda berhasil di hapus ');
+        $this->session->set_flashdata('flash-data', 'Data telah dihapus');
         redirect('Admin','refresh');
 	}
 
@@ -53,7 +53,7 @@ class Admin extends CI_Controller {
 	{
 		$this->admin_model->hapusdata('id_auth',$id,'auth');
 
-        $this->session->set_flashdata('flash-data', 'Good bye akun lama ;( ');
+        $this->session->set_flashdata('flash-data', 'Data telah dihapus ');
         redirect('Admin','refresh');
 	}
 
@@ -61,7 +61,7 @@ class Admin extends CI_Controller {
 	{
 		$this->admin_model->hapusdata('id_package',$id,'packages_rental');
 
-        $this->session->set_flashdata('flash-data', 'Good bye paket liburan ;( ');
+        $this->session->set_flashdata('flash-data', 'Data telah dihapus ');
         redirect('Admin','refresh');
 	}
 
@@ -122,7 +122,7 @@ class Admin extends CI_Controller {
         );
         $where = array('id_package' => $this->input->post('id'));
 	    $this->admin_model->ubahData('packages_rental',$dataUpdate,$where);
-	    $this->session->set_flashdata('flash-data', 'Paket teravel berhasil di update');
+	    $this->session->set_flashdata('flash-data', 'Data berhasil di update');
 	    redirect('Admin/package','refresh');
 	}
 
@@ -137,7 +137,7 @@ class Admin extends CI_Controller {
         );
         $where = array('id_auth' => $this->input->post('id'));
 	    $this->admin_model->ubahData('auth',$dataUpdate,$where);
-	    $this->session->set_flashdata('flash-data', 'user berhasil di update');
+	    $this->session->set_flashdata('flash-data', 'Data berhasil di update');
 	    redirect('Admin/user','refresh');
 	}
 
@@ -163,7 +163,7 @@ class Admin extends CI_Controller {
 		);
 
 		$this->admin_model->add('packages_rental',$ins);
-		$this->session->set_flashdata('flash-data', 'Muantaaap Paket Liburan Baru Hadir !');
+		$this->session->set_flashdata('flash-data', 'Data baru telah ditambakan');
 		redirect('Admin/package','refresh');
 	}
 
@@ -184,13 +184,13 @@ class Admin extends CI_Controller {
 		$ins = array(
 			'username' => $this->input->post('username'),
 			'email' => $this->input->post('email'),
-			'password' => $this->input->post('pass'),
+			'password' => $this->input->post('pass'),z
 			'address' => $this->input->post('address'),
 			'about_me' => $this->input->post('about'),
 			'level' => $this->input->post('level'),
 		);
 		$this->admin_model->add('auth',$ins);
-		$this->session->set_flashdata('flash-data', 'Selamat account baru telah tercipta !');
+		$this->session->set_flashdata('flash-data', 'Akun baru berhasil dibuat');
 		redirect('Admin/user','refresh');
 	}
 	public function laporan_pdf(){
