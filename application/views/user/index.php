@@ -81,8 +81,8 @@
   <section class="section-margin pb-xl-5">
     <div class="container" id="c">
       <div class="section-intro text-center pb-90px">
-        <img class="section-intro-img" src="<?php echo base_url(); ?>assets/landing/img/home/section-icon.png" alt="">
-        <h2>Our Tour Package</h2>
+        <img class="section-intro-img" src="<?php echo base_url(); ?>assets/landing/img/home/p.png" alt="">
+        <h2>Our Game Package</h2>
         <p>The following packages we provide</p>
       </div>
      
