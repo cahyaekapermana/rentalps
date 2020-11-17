@@ -27,7 +27,7 @@
                     <thead class="text-warning">
                       <th>ID</th>
                       <th>Name</th>
-                      <th>Travel Package</th>
+                      <th>Game Package</th>
                       <th>Price</th>
                     </thead>
                     <tbody>
