@@ -48,7 +48,7 @@ class Login extends CI_Controller {
 			$exc = $this->auth_model->regis($insert);
 
 			if ($exc >= 1) {
-				$this->session->set_flashdata('flash-data', 'Alhamdulillah Berhasil Sign Up');
+				$this->session->set_flashdata('flash-data', 'Berhasil daftar');
 				redirect('Login');
 			} else {
 				$this->session->set_flashdata('flash-data', 'Maaf Anda Kurang Beruntung, Please Try Again');
@@ -85,7 +85,7 @@ class Login extends CI_Controller {
 
 
 		}else{
-			$this->session->set_flashdata('flash-data', 'Username or Pass masih salah bre');
+			$this->session->set_flashdata('flash-data', 'Username atau password salah');
 			redirect('Login');
 		}
 	}
